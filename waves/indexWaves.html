@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleWaves.css">
+    <link rel="icon" href="data:,">
+    
+</head>
+<body>
+
+    <div class="blocks">
+        <div id="cont-countdown5">
+    
+            <button id="min5">5 min</button>
+    
+        </div>
+    
+        <div id="cont-countdown10">
+    
+            <button id="min10">10 min</button>
+    
+        </div>
+    
+        <div id="cont-countdown15">
+    
+            <button id="min15">15 min</button>
+    
+        </div>
+    </div>
+
+    <audio id="player" autoplay muted loop controls>
+        <source src="waves.mp3" type="audio/mp3">
+    </audio>
+
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+        <source src="waves.mp4" type="video/mp4">
+    </video>
+   
+    
+    <script src="scriptWaves.js"></script>
+</body>
+</html>

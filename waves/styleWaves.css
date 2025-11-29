@@ -1,0 +1,55 @@
+#cont-countdown5, #cont-countdown10, #cont-countdown15 {
+    display: flex;
+    justify-content: center;
+}
+
+#min5, #min10, #min15, .count  {
+    background: linear-gradient(to right, #acb6e5, #f0f3f5);
+    font-size: 60px;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 30px;
+    border:none;
+}
+
+#myVideo {
+    position:fixed;
+    top:0;
+    right:0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+
+
+@media all and (max-width: 820px) {
+
+    
+
+    #min5, #min10, #min15 {
+        font-size: 30px;
+    }
+
+
+@media all and (max-width: 500px) {
+
+    .blocks {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #min5, #min10, #min15 {
+        margin-top: 0;
+    }
+
+    
+}
+}
