@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+    height: 100vh;
     
     
 }
@@ -86,7 +86,7 @@ img {
 
 
 
-@charset "UTF-8";
+
 .box {
  
   display: flex;
@@ -259,20 +259,30 @@ img {
 
 @media all and (max-width: 800px) {
 
-    .blocks {
-        flex-direction: column;
-    }
+    
 
     #min5, #min10, #min15 {
         font-size: 30px;
+        margin-top: 20px;
     }
+
+    #btn {
+      margin-top: 200px;
+  }
 
 }
 
 @media all and (max-width:500px) {
+
+    .blocks {
+         flex-direction: column;
+         align-items: center; 
+      }
     #btn, #par {
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 15px;
+        margin-top: 50px;
+        line-height: 26px;
     }
 
     img {
